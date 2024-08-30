@@ -1,2 +1,0 @@
-const String stripePublishableKey =
-    "pk_test_51PtB3UP0VDdWLPuTvLx9NYFGHuyM7yQflzvh7trysN8bvvYU7y1TPIeUDlwm1Zf2ZubgSKDHzbULsrKMKe10B8Wj00EDQ4a6MW";

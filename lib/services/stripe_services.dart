@@ -2,7 +2,6 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:flutter_stripe_demo/consts.dart';
 
 class StripeServices {
   StripeServices._();
@@ -18,7 +17,8 @@ class StripeServices {
       await Stripe.instance
           .initPaymentSheet(
               paymentSheetParameters: SetupPaymentSheetParameters(
-                  googlePay: PaymentSheetGooglePay(merchantCountryCode: ''),
+                  googlePay:
+                      const PaymentSheetGooglePay(merchantCountryCode: ''),
                   paymentIntentClientSecret: paymentIntent?[
                       'client_secret'], //Gotten from payment intent
                   style: ThemeMode.dark,

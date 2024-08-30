@@ -1,9 +1,5 @@
-import 'dart:convert';
-import 'dart:developer';
-import 'package:dio/dio.dart';
+
 import 'package:flutter/material.dart';
-import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:flutter_stripe_demo/consts.dart';
 import 'package:flutter_stripe_demo/services/stripe_services.dart';
 
 class HomeScreen extends StatefulWidget {
